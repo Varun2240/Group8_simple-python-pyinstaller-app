@@ -20,6 +20,9 @@ pipeline {
                 bat 'echo Checking sources directory:'
                 bat 'dir sources'
 
+                // Install pytest
+                bat 'pip install pytest'
+
                 // Run pytest and generate JUnit-style test report
                 bat 'python -m pytest --junit-xml=test-reports/results.xml sources/test_calc.py'
 
