@@ -13,7 +13,8 @@ pipeline {
         stage('Test') {
             steps {
                 bat 'mkdir test-reports'
-                bat 'pytest --junit-xml=test-reports/results.xml sources/test_calc.py'
+                bat 'python -m pytest --junit-xml=test-reports/results.xml sources/test_calc.py'
+
 
             }
             post {
