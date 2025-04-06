@@ -18,3 +18,6 @@ The jenkins directory contains an example of the `Jenkinsfile`
 
 
 <checking push githib webhook agai]ndndn>
+
+
+<checking gitea>
