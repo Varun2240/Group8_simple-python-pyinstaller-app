@@ -21,3 +21,6 @@ The jenkins directory contains an example of the `Jenkinsfile`
 
 
 <checking gitea>
+## Contributors
+- Varun
+-Sathwik
